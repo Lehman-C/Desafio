@@ -1,0 +1,15 @@
+#archivo yaml para poder mantener la sesion con la auntenticación
+
+client_config_backend: settings
+client_config:
+  client_id: 312405570240-gf4upnisd37d0p7o1auehong9h06eph9.apps.googleusercontent.com
+  client_secret: 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
+
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: credentials_module.json
+
+get_refresh_token: True
+
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
